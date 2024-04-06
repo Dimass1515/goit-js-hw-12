@@ -132,3 +132,11 @@ h3 {
   line-height: 16px;
   letter-spacing: .04em;
 }
+.hidden {
+  display: none;
+}
+
+.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+}
