@@ -23,3 +23,112 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+.search-form{
+  max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-top: 40px;
+}
+.input-form{
+  border-radius: 4px;
+    background: rgb(255, 255, 255);
+    width: 272px;
+    border: 1px solid rgb(218, 211, 211);
+    outline: transparent;
+    height: 40px;
+    box-sizing: border-box;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: .04em;
+    text-align: left;
+}
+.search-btn{
+  width: 90px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: transparent;
+    border-radius: 8px;
+    background: rgb(78, 117, 255);
+    border: 1px solid transparent;
+    color: #fff;
+    transition: background-color .25s ease-in-out;
+}
+.gallery{
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.gallery-item {
+  width: 360px;
+  padding-bottom: 4px;
+  border: 1px solid gray;
+
+}
+
+.gallery-item-info{
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+}
+.item-info-atr{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  display: block;
+  height: 200px;
+  width: 360px;
+  object-fit: cover;
+}
+.load-more-btn{
+  width: 91px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: transparent;
+    border-radius: 8px;
+    background: rgb(78, 117, 255);
+    border: 1px solid transparent;
+    color: #fff;
+    transition: background-color .25s ease-in-out;  
+}
+h3 {
+  display: flex;
+  justify-content: center;
+} 
+.item-info-atr h3:first-child{
+  color: #2e2f42;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: .04em;
+  text-align: left;
+}
+.item-info-atr p:last-child{
+  color: #2e2f42;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: .04em;
+}
